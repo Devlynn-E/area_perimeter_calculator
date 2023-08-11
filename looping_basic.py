@@ -39,18 +39,26 @@ def num_check(question):
             print(error)
 
 
-width = num_check("width: ")
-height = num_check("height: ")
-print()
-print("width", width)
-print("height:", height)
-print()
+keep_going = ""
+while keep_going == "":
+
+    width = num_check("width: ")
+    height = num_check("height: ")
+    print()
+    print("width", width)
+    print("height:", height)
+    print()
 
 
-perimeter = 2 * (width + height)
-area = width * height
+    perimeter = 2 * (width + height)
+    area = width * height
 
-print("the perimeter is: {}".format(perimeter))
+    print("the perimeter is: {}".format(perimeter))
+    print()
+    print("the area is: {}".format(area))
+    print()
+
+    keep_going = input("press <enter> to enter more or anything else to leave")
+
 print()
-print("the area is: {}".format(area))
-print()
+print("thanks for using my area / perimeter calculator")
