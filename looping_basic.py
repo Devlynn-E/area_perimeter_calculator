@@ -3,7 +3,7 @@ def num_check(question):
     valid = False
     while not valid:
 
-        error = "please input a number above zero you knob"
+        error = "please input a number above zero"
 
         try:
 
@@ -22,7 +22,7 @@ def num_check(question):
     valid = False
     while not valid:
 
-        error = "please input a number above zero you knob"
+        error = "please input a number above zero"
 
         try:
 
@@ -48,7 +48,6 @@ while keep_going == "":
     print("width", width)
     print("height:", height)
     print()
-
 
     perimeter = 2 * (width + height)
     area = width * height
