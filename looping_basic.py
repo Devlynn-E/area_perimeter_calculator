@@ -1,3 +1,6 @@
+print("\n**** welcome to the area / perimeter calculator ****")
+
+
 def num_check(question):
 
     valid = False
@@ -44,20 +47,15 @@ while keep_going == "":
 
     width = num_check("width: ")
     height = num_check("height: ")
-    print()
-    print("width", width)
+    print("\nwidth", width)
     print("height:", height)
-    print()
 
     perimeter = 2 * (width + height)
     area = width * height
 
-    print("the perimeter is: {}".format(perimeter))
-    print()
-    print("the area is: {}".format(area))
-    print()
+    print("\nthe perimeter is: {} units".format(perimeter))
+    print("\nthe area is: {} square units".format(area))
 
-    keep_going = input("press <enter> to enter more or anything else to leave")
+    keep_going = input("\npress <enter> to enter more or anything else to leave")
 
-print()
-print("thanks for using my area / perimeter calculator")
+print("\n** thanks for using my area / perimeter calculator **")
